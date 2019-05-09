@@ -108,3 +108,47 @@ nav ul li a {
 .actual {
     color: #10E82D;
 }
+
+.productos {
+    display: flex;
+    margin: 30px;
+}
+
+.frutas {
+    width: 50%;
+    background: url(../imagenes/frutas.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.frutas h2 {
+    text-align: center;
+    color: black;
+}
+
+.frutas p {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    padding: 5px;
+}
+
+.verduras {
+    width: 50%;
+    background: url(../imagenes/verduras.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.verduras h2 {
+    text-align: center;
+    color: black;
+}
+
+.verduras p {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    padding: 5px;
+}
