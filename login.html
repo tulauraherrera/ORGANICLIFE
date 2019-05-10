@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="iconos/style.css">
 </head>
-<body background="imagenes/frutas.jpg">
+<body background="imagenes/login.jpg">
 
     <header id="cabecera">
         <img src="imagenes/logo.png" class="img-logo">
@@ -39,7 +39,12 @@
     <form action="php/ingresar.php" method="POST">
         <div class="container">
             <h2>Iniciar sesión<br>con tu red social</h2>
-    		<br><br>
+            <br>
+            <div class="redes">
+                <img src="imagenes/google.png">
+                <img src="imagenes/facebook.png">
+                <img src="imagenes/twitter.png">
+            </div>
     		<label for="nameUser">Correo Electronico:</label><br>
     		<input type="email" name="emailUser" id="nameUser" placeholder="Ingrese su electronico" required=""><br><br>
             <label for="contraseñaUser">Contraseña:</label><br>
